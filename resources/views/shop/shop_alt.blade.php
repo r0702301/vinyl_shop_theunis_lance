@@ -10,7 +10,7 @@
         <ul>
         @foreach ($genre->records as $record)
 
-                <li><a href="">{{$record->artist}} - {{ $record->title }}</a> | Price: €{{ $record->price }} | Stock: {{ $record->stock }}</li>
+                <li><a href="shop/{{ $record->id }}">{{$record->artist}} - {{ $record->title }}</a> | Price: €{{ $record->price }} | Stock: {{ $record->stock }}</li>
 
         @endforeach
         </ul>
