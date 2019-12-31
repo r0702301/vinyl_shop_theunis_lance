@@ -1,4 +1,4 @@
-@extends('layouts.template')
+ @extends('layouts.template')
 
 @section('main')
     <h1>The Vinyl Shop</h1>
